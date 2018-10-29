@@ -1,0 +1,24 @@
+#include <iostream>
+#include <conio.h> //boleh digunakan /boleh tidak
+#include <windows.h> //boleh digunakan /boleh tidak
+int main()
+{
+	system("color A")
+	cout << "    SMK BRIGJEND KATAMNSO               " << endl;
+	cout << "=====================================" << endl;
+    char nama[50];
+	char alamat[50];
+	char hobi[30]; 
+    cout << "nama anda adalah           : ";
+    cin.getline(nama,sizeof(nama));
+    cout << "alamat anda adalah         : ";
+    cin.getline(alamat,sizeof(alamat));
+    cout << "hobi anda adalah           : ";
+    cin.getline(hobi,sizeof(hobi));
+    cout << endl;
+    cout << "nama anda adalah: " << nama << endl;
+    cout << "alamat anda adalah: " << alamat << endl;
+    cout << "hobi anda adalah: " << hobi << endl;    
+    getch(); //harus berdampingan dengan return 0;     //boleh digunakan /boleh tidak 
+    return 0; //boleh digunakan /boleh tidak
+}
